@@ -1,0 +1,86 @@
+<html lang="en" style="
+    /* background-image: url(https://33.media.tumblr.com/600e9a63460f0b8f5892de87b9eaab49/tumblr_n4cpb79OWy1sd4vovo1_500.gif); */
+    /* background-size: contain; */
+"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="MP.css">
+    <style>
+        img {
+    max-width:90vw;
+            max-height:90vh;
+           
+    }
+    </style>
+</head><body style="
+    align-content: center;
+    text-align: center;
+"><div style="
+    background-image: url(https://33.media.tumblr.com/600e9a63460f0b8f5892de87b9eaab49/tumblr_n4cpb79OWy1sd4vovo1_500.gif);
+    position: fixed;
+    z-index: -99;
+    height: 100vh;
+    width: 100vw;
+    background-size: contain;
+    left: 0;
+    top: 0;
+"></div>
+<h1 style="
+    text-align: center;
+    align-content: center;
+    color: darkolivegreen;
+    text-decoration: blink;
+">weeeed</h1>
+    <br>
+<img src="https://33.media.tumblr.com/600e9a63460f0b8f5892de87b9eaab49/tumblr_n4cpb79OWy1sd4vovo1_500.gif" style="
+    /* max-width: 80vw; */
+">
+    <a href="http://lemonparty.com/"><img src="https://78.media.tumblr.com/23d07378cbcc2afd05f50f19437fb86f/tumblr_o491l0dUwa1tug757o1_400.gif"></a>
+
+
+
+
+<a href="https://www.youtube.com/watch?v=elbmiz_cHQg"><img src="https://thumbs.gfycat.com/BewitchedFriendlyCurlew-max-1mb.gif" style="
+    /* max-width: 80vw; */
+    /* max-height: 70vh; */
+    "></a><img src="https://media1.tenor.com/images/35512810415299957212f97b00f61300/tenor.gif?itemid=15800498" style="
+    /* max-width: 80vw; */
+    /* max-height: 70vh; */
+">
+
+<a href="http://lemonparty.com/"><img src="https://i.gifer.com/Pbm.gif" style="
+    /* max-width: 90vw; */
+"></a>
+<a href="http://lemonparty.com/"><img src="https://i.kym-cdn.com/photos/images/original/001/763/747/7f6.gif" style="
+    /* max-width: 90vw; */
+"></a>
+<a href="http://lemonparty.com/"><img src="https://i.kym-cdn.com/photos/images/original/001/763/747/7f6.gif" style="
+    /* max-width: 90vw; */
+"></a><a href="http://lemonparty.com/"><img src="https://media2.giphy.com/media/xULW8mwHKbg0MxDjfW/giphy.gif" style="
+    /* max-width: 90vw; */
+"></a>\
+    
+
+  <div>
+    <audio loop="" src="Ross Lynch - On My Own (From Teen Beach 2).mp3" id="song"></audio>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTob-tfpJQI1_J2pTsGaRh0tQT3oOUBsSdCrGbh790J1Was-koe" alt="background" id="BG">
+    <div class="container">
+      <div class="song-name"></div>
+      <div class="song-title">On My Own - Ross Lynch</div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTob-tfpJQI1_J2pTsGaRh0tQT3oOUBsSdCrGbh790J1Was-koe" alt="thumbnail" id="thumbnail" style="width: 130%;">
+      <div class="box"></div>
+      <img src="http://www.iconarchive.com/download/i91182/icons8/windows-8/Media-Controls-Play.ico" alt="play/pause" onclick="playPause()" id="pp">
+      <img src="https://www.shareicon.net/data/512x512/2016/01/05/698429_forward_512x512.png" alt="nextSong" id="ns" onclick="nextSong()">
+      <img src="https://www.shareicon.net/data/512x512/2016/01/05/698429_forward_512x512.png" alt="previousSong" id="ps" onclick="previousSong()">
+      <input type="range" id="progressBar" min="0" max="150.987755" value="0" onchange="const progressBar = document.querySelector(&quot;#progressBar&quot;);
+        document.querySelector(&quot;#song&quot;).currentTime = progressBar.value;">
+    </div>
+    <script src="MP.js"></script>
+  
+
+</div>
+
+
+</body></html>
